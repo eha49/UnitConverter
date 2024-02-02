@@ -13,7 +13,7 @@ function roundNum(num) {
 }
 
 function convert() {
-    if (+inputValue.value) {
+    if (+inputValue.value > 0) {
         const htmlString = data.map(qty => {
             return `
             <div class='container-result'>
